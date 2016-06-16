@@ -1,0 +1,100 @@
+/*CAT STYLING */
+
+.mainCatDiv {
+  width: 45%;
+  float: left;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.catBrandHeader {
+  border: solid black 5px;
+  margin: 5px 0;
+  font-size: 4.5rem;
+}
+
+.catBreedHeader {
+  margin: 5px 0;
+  font-size: 3.5rem;
+}
+
+.catBreedDiv {
+  border: black solid 3px;
+  margin-bottom: 10px;
+  min-height: 650px;
+}
+
+.catTypeDiv {
+  margin: 10px 0;
+}
+
+.catTypeDiv:nth-child(even) {
+  text-align: left;
+  margin-left: 15%;
+}
+
+ .catTypeDiv:nth-child(odd) {
+  text-align: right;
+  margin-right: 15%;
+}
+
+.catTypeHeader {
+  margin: 5px 0;
+  font-size: 2rem;
+}
+
+.catVolumeHeader {
+  margin: 5px 0;
+  font-size: 1.5rem;
+}
+
+.catPriceHeader {
+  margin: 5px 0;
+  font-size: 1.5rem;
+}
+
+/*DOG STYLING*/
+
+.mainDogDiv {
+  width: 45%;
+  float: left;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.dogBrandHeader {
+  border: solid black 5px;
+  margin: 5px 0;
+  font-size: 4.5rem;
+}
+
+.dogTypeHeader {
+  margin: 5px 0;
+  font-size: 3.5rem;  
+}
+
+.dogTypeDiv {
+  border: black solid 3px;
+  margin-bottom: 10px;
+}
+
+.dogTypeDiv div:nth-of-type(even) {
+  text-align: left;
+  margin-left: 15%;
+}
+
+.dogTypeDiv div:nth-of-type(odd) {
+  text-align: right;
+  margin-right: 15%;
+}
+
+.dogVolumeHeader {
+  margin: 5px 0;
+  font-size: 2rem;
+}
+
+.dogPriceHeader {
+  margin: 5px 0;
+  font-size: 2rem;
+}
+
